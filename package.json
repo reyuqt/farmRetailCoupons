@@ -1,0 +1,41 @@
+{
+  "name": "farm-coupons",
+  "version": "3.1.0",
+  "description": "Automates browser manipulation to test and validate big-box retailer coupons using Puppeteer and pyautogui.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
+  "author": "Lauren <reyuqt01@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "automation",
+    "browser",
+    "puppeteer",
+    "coupons",
+    "testing",
+    "validation",
+    "retail"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.13",
+    "puppeteer": "^21.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-repl": "^2.3.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "command-line-args": "^5.2.1",
+    "proxy-chain": "^2.3.0",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.8",
+    "nodemon": "^2.0.22"
+  }
+}
